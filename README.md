@@ -42,8 +42,8 @@ The solution is designed to:
 ### Flow
 1. Validate account ID and ticket rules.  
 2. Sum tickets and calculate:  
-   - ✅ Total payment amount.  
-   - ✅ Seats to reserve (excluding infants).  
+   - Total payment amount.  
+   - Seats to reserve (excluding infants).  
 3. Call external services:  
    - `paymentService.makePayment(accountId, totalAmount)`  
    - `reservationService.reserveSeat(accountId, totalSeatsToReserve)`  
